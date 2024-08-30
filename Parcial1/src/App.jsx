@@ -12,7 +12,6 @@ function App() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Aquí puedes manejar lo que sucede cuando se envía el formulario
     console.log("Hotel seleccionado:", selectedHotel);
     console.log("Comida seleccionada:", selectedFood);
     console.log("Destino seleccionado:", selectedDestiny);
